@@ -79,3 +79,4 @@ class Server:
             "prev_page": None if page == 1 else page - 1,
             "total_pages": ceil(len(self.__dataset) / page_size)
         }
+    
